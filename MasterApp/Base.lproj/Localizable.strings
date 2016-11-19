@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Sos
+
+  Created by Taqtile on 8/17/16.
+  Copyright © 2016 Taqtile. All rights reserved.
+*/
+
+/**************************************************
+ Default strings
+**************************************************/
+"ok"     = "OK";
+"yes"    = "Yes";
+"no"     = "No";
+"call"   = "Call";
+"cancel" = "Cancel";
+
+
+/**************************************************
+ Custom strings
+**************************************************/
+
+// app
+"app.mail" = "Mail";
+"app.gmail" = "Gmail";
+
+// alert
+"alert.title.email" = "Email";
+"alert.message.email" = "Choose an email app:";
+"alert.message.call" = "Do you want to call ";
+
+//CustomTabbarViewController
+"CustomTabbarViewController.clients" = "Clients";
+"CustomTabbarViewController.recipe"  = "Recipes";
+"CustomTabbarViewController.my_recipe" = "My Recipes";
+
+// MoreViewController
+"MoreViewController.edit"       = "Edit my account";
+"MoreViewController.login"      = "Login";
+"MoreViewController.logout"     = "Logout";
+"MoreViewController.add_recipe" = "Add recipe";
+"MoreViewController.title"      = "More";
+
+//SearchViewController
+"SearchViewController.hint"  = "Search for a delicious recipe!";
+"SearchViewController.title" = "Search";
+
+// Error
+"Error.http_status_code.message" = "The server returned an HTTP \(HTTPStatusCode) response.";
+"Error.http_status_code.title"   = "Server error";
+"Error.network.message"          = "Master App can’t connect to the server.";
+"Error.network.title"            = "Can’t connect";
+"Error.page_not_found.message"   = "There doesn’t seem to be anything here.";
+"Error.page_not_found.title"     = "Page not found";
+"Error.unknown.message"          = "An unknown error occurred.";
+"Error.unknown.title"            = "Unknown error";
