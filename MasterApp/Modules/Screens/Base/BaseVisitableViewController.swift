@@ -18,10 +18,6 @@ class BaseVisitableViewController: Turbolinks.VisitableViewController {
     ]
 
     // MARK: Public
-    func refresh() {
-        visitableView.webView?.reload()
-    }
-
     func scrollToTop() {
         visitableView.webView?.scrollView.setContentOffset(CGPointMake(0, 0), animated: true)
         visitableView.webView?.scrollView.scrollsToTop = true

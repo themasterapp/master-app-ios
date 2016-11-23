@@ -28,6 +28,10 @@ class TurbolinksNavigationController: UINavigationController {
     }()
 
     // MARK: public
+    func reset() {
+        session.reload()
+    }
+    
     func visit(URL: NSURL) {
         showVisitableForSession(session, URL: URL)
     }

@@ -39,9 +39,7 @@ class CustomTabbarViewController: UITabBarController {
         for vc : UIViewController in viewControllers {
             if let nav = vc as? TurbolinksNavigationController {
                 nav.popToRootViewControllerAnimated(false)
-                if let visistableViewController = nav.topViewController as? BaseVisitableViewController {
-                    visistableViewController.refresh()
-                }
+                nav.reset()
             }
         }
         let homeIndex = 0
