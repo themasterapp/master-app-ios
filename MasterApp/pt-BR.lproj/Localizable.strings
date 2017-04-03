@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Sos
+
+  Created by MasterApp on 8/17/16.
+  Copyright © 2016 MasterApp. All rights reserved.
+*/
+
+/**************************************************
+ Default strings
+**************************************************/
+"ok"     = "OK";
+"yes"    = "Sim";
+"no"     = "Não";
+"call"     = "Ligar";
+"cancel" = "Cancelar";
+
+/**************************************************
+ Custom strings
+**************************************************/
+
+// app
+"app.mail"  = "Mail";
+"app.gmail" = "Gmail";
+
+// alert
+"alert.title.email"   = "E-mail";
+"alert.message.email" = "Escolha um app para enviar um e-mail:";
+"alert.message.call"  = "Você deseja ligar para ";
+
+//CustomTabbarViewController
+"CustomTabbarViewController.clients" = "Clients";
+"CustomTabbarViewController.recipe"  = "Receitas";
+"CustomTabbarViewController.my_recipe" = "Minhas Receitas";
+
+// MoreViewController
+"MoreViewController.edit"       = "Editar meus dados";
+"MoreViewController.login"      = "Login";
+"MoreViewController.logout"     = "Logout";
+"MoreViewController.add_recipe" = "Adicionar receita";
+"MoreViewController.title"      = "Mais";
+
+//SearchViewController
+"SearchViewController.hint"  = "Procure uma receita deliciosa!";
+"SearchViewController.title" = "Busca";
+
+// Error
+"Error.http_status_code.message" = "O servidor retornou uma resposta HTTP \(HTTPStatusCode).";
+"Error.http_status_code.title"   = "Erro no servidor";
+"Error.network.message"          = "O Master App não consegue se conectar ao servidor.";
+"Error.network.title"            = "Não foi possível conectar";
+"Error.page_not_found.message"   = "Parece que não há nada nesse lugar.";
+"Error.page_not_found.title"     = "Página não encontrada";
+"Error.unknown.message"          = "Um erro desconhecido ocorreu.";
+"Error.unknown.title"            = "Erro desconhecido";
